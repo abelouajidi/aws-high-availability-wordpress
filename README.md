@@ -29,11 +29,11 @@ AWS High-Availability WordPress
     
 🎯 Objectives
 
-    - Build a fault-tolerant WordPress site across multiple Availability Zones
-    - Use EFS to store uploads so all EC2 instances share the same content
-    - Use RDS Multi-AZ for a highly available database
-    - Deploy EC2 instances using Auto Scaling Groups
-    - Configure a custom domain with Route 53
+    - Deploy WordPress in **multiple AZs** for high availability
+    - Store uploads on **Amazon EFS** so all EC2 instances share the same media
+    - Use **Amazon RDS Multi-AZ** for fault-tolerant MySQL hosting
+    - Implement **Auto Scaling** for traffic spikes
+    - Secure the application with **Route 53** + **SSL**
 
 🛠 AWS Services Used
 
@@ -46,3 +46,7 @@ AWS High-Availability WordPress
     - Route 53	Domain and DNS management
     - IAM	Permissions and security
     - CloudWatch	Monitoring and alerts
+
+📜 License
+
+    This project is licensed under the MIT License.
