@@ -6,15 +6,11 @@ AWS High-Availability WordPress
 
     A fully high-availability WordPress deployment on AWS using:
     
-    Amazon EC2 in an Auto Scaling Group
-    
-    Application Load Balancer for traffic distribution
-    
-    Amazon EFS for shared storage of WordPress uploads
-    
-    Amazon RDS (MySQL) for managed database hosting
-    
-    Multi-AZ architecture for fault tolerance and scalability
+    - Amazon EC2 in an Auto Scaling Group
+    - Application Load Balancer for traffic distribution
+    - Amazon EFS for shared storage of WordPress uploads
+    - Amazon RDS (MySQL) for managed database hosting
+    - Multi-AZ architecture for fault tolerance and scalability
     
 
 📌 Architecture Overview
